@@ -11,7 +11,7 @@ def index(request):
     if request.method == 'POST'and request.is_ajax():
         # check for empty name field
         if request.POST['name'] == "":
-            username = "Jane Doe"   #  set default name
+            username = "First Last"   #  set default name
         else:
             username = request.POST['name']
         # check for select field
@@ -34,7 +34,6 @@ def portfolio(request):
 def contact(request):
     if request.method == 'POST':
         email = request.POST.get('email')
-        subject = request.POST.get('subject')
         message = request.POST.get('message')
 
         form = Contact(email=email, subject=subject, message=message)
