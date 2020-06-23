@@ -1,12 +1,14 @@
 /* CUSTOM CSS */
 
 body {
-    background-image:url('/static/mypf/img/background2.jpeg');
+    background-color: brown;
+    
     background-repeat:no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    
 }
 
 .margin{
@@ -65,14 +67,14 @@ label {
 }
 
 .pflink{
-    background-color:#007bff;
+    background-color:#ff2600;
     padding:5px;
     border-radius: 5px;
     vertical-align: middle;
 }
 
 .pflink:hover{
-    background-color:#3858f5;
+    background-color:orange;
 }
 
 .pflink a{
@@ -87,19 +89,19 @@ label {
 }
 
 .about-1{
-    background-color:#0070e1;
+    background-color:grey;
 }
 .about-2{
-    background-color:#007bff;
+    background-color:grey;
 }
 
 .btn-cv{
-    background-color: #007bff;
+    background-color: blue;
     color: #fff;
 }
 
 .btn-cv:hover{
-    background-color:#0070e1;
+    background-color:orange;
     border:1px solid #fff;
     color: #fff;
 }
