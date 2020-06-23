@@ -6,7 +6,7 @@
 2. virtualenv
 3. Python
 
-# Run On Your Machine?
+# Serving The Application
 
 1. Firstly, clone the repository using the git shell <br>
 <code>$ git clone https://github.com/vaibhav0103/personal-portfolio.git</code> <br>
