@@ -20,5 +20,4 @@
 5. Now start the localhost server<br>
 <code>$ python manage.py runserver</code> <br>
 
-# Live Example
-[Portfolio](https://vaibhavportfolio.herokuapp.com)
+
