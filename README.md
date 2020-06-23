@@ -9,15 +9,16 @@
 # Serving The Application
 
 1. Firstly, clone the repository using the git shell <br>
-<code>$ git clone https://github.com/vaibhav0103/personal-portfolio.git</code> <br>
+<code>$ git clone https://github.com/rmautia/myportfolio.git</code> <br>
 2. Goto the base directory of the project <br>
 <code>cd portfolio </code> <br>
 3. Create a virtual environment and activate it. <br>
-<code>$ virtualenv venv</code> <br>
-<code>$ venv\Scripts\activate</code> on Windows or <code>$ source venv/bin/activate</code> on Posix system <br>
-4. Install the requirements for the project <br>
+<code>$ python3.8 -m venv --without-pip virtual </code> <br>
+<code>$ source virtual/bin/activate</code> on Linux <br>
+4.<code>$curl https://bootstrap.pypa.io/get-pip.py | python</code> <br>
+5. Install the requirements for the project <br>
 <code>$ pip install -r requirements.txt</code>  <br>
-5. Now start the localhost server<br>
+6. Now start the localhost server<br>
 <code>$ python manage.py runserver</code> <br>
 
 
