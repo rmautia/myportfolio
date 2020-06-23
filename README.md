@@ -1,5 +1,6 @@
 # personal-portfolio
  A Django based personal portfolio website.
+ ![Alt text](mypf/static/mypf/img/portsave1.png?raw=true "Home page")
 
 # Requirements (that shall be installed in your system)
 1. Git 
@@ -20,5 +21,7 @@
 <code>$ pip install -r requirements.txt</code>  <br>
 6. Now start the localhost server<br>
 <code>$ python manage.py runserver</code> <br>
+
+![Alt text](mypf/static/mypf/img/portsave2.png?raw=true "Title")
 
 
